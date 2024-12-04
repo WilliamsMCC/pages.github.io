@@ -1,0 +1,103 @@
+.pagina-contacto {
+    background-image: url('/src/assets/imagenes/Fondo.jpeg');
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    font-family: Arial, sans-serif; 
+    min-height: 100vh; 
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.8); 
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    width: 1000px;
+    max-width: 100%;
+    margin: auto;
+}
+
+.contact-form {
+    flex: 1;
+    margin-right: 40px;
+}
+
+.contact-form h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+.form-group textarea {
+    height: 120px;
+}
+
+.submit-btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+}
+
+.submit-btn:hover {
+    background-color: #45a049;
+}
+
+.contact-info {
+    flex: 1;
+    padding-left: 40px;
+    border-left: 1px solid #ccc;
+}
+
+.contact-info h2 {
+    margin-top: 0;
+}
+
+.contact-info p {
+    margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .contact-form {
+        margin-right: 0;
+        margin-bottom: 30px;
+    }
+
+    .contact-info {
+        padding-left: 0;
+        border-left: none;
+        text-align: center;
+    }
+}
