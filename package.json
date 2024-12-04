@@ -1,0 +1,26 @@
+{
+  "name": "asados-a-cabron",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "handlebars": "^4.7.8",
+    "less": "^4.2.0",
+    "vite": "^5.4.11",
+    "vite-plugin-handlebars": "^2.0.0",
+    "vite-plugin-purgecss": "^0.2.12"
+  },
+  "dependencies": {
+    "glob": "^11.0.0"
+  }
+}
